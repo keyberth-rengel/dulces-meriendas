@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pink {
+  background: rgb(248, 174, 186);
+}
+.header{
+  background-image: url('./img/header-4.jpg');
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  min-height: 30rem;
+}
+.redes-sociales {
+  width: 100%;
+  padding: 50px;
+  background: #3c6a9f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+.redes-sociales .contenedor-redesSociales {
+    width: 33%;
+    text-align: center; }
+.redes-sociales .contenedor-redesSociales p {
+      width: 100%;
+      font-size: 23px;
+      padding-bottom: 10px;
+      color: #fff;
+      text-align: center; }
+.redes-sociales .contenedor-redesSociales a {
+      text-decoration: none; }
+.redes-sociales .contenedor-redesSociales a .fab {
+        font-size: 30px;
+        padding: 10px;
+        color: #fff;
+        padding-bottom: 7px;
+        border-bottom: 2px solid transparent; }
+.redes-sociales .contenedor-redesSociales a .fab:hover {
+          border-bottom: 2px solid #fff; }
+.redes-sociales .contacto-contacto {
+    width: 33%; }
+.redes-sociales .contacto-contacto .titulo-otros {
+      width: 100%;
+      font-size: 23px;
+      padding-bottom: 10px;
+      color: #fff;
+      text-align: center; }
+.redes-sociales .contacto-contacto p {
+      width: 100%;
+      font-size: 18px;
+      padding-bottom: 10px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none; }
+.redes-sociales .contacto-contacto p a {
+        width: 100%;
+        font-size: 18px;
+        padding-bottom: 10px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none; }
+.redes-sociales .contacto-contacto p a:hover {
+          text-decoration: underline; }
+
+footer {
+  width: 100%;
+  padding: 30px;
+  background: #3c6a9f;
+  border-top: 2px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end; }
+footer p {
+    color: #fff;
+    font-size: 18px; }
