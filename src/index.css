@@ -31,55 +31,11 @@ code {
 .dulces p {
   font-size: 50px;
 }
-.redes-sociales {
-  width: 100%;
-  background: #3c6a9f;
-}
-.redes-sociales .contenedor-redesSociales {
-    text-align: center; 
-}
-.redes-sociales .contenedor-redesSociales p {
-      width: 100%;
-      font-size: 20px;
-      color: #fff;
-      text-align: center; }
-.redes-sociales .contenedor-redesSociales a {
-      text-decoration: none; }
-.redes-sociales .contenedor-redesSociales a .fab {
-        font-size: 25px;
-        padding: 5px;
-        color: #fff;
-        padding-bottom: 7px;
-        border-bottom: 2px solid transparent; }
-.redes-sociales .contenedor-redesSociales a .fab:hover {
-          border-bottom: 2px solid #fff; }
-.redes-sociales .contacto-contacto .titulo-otros {
-      width: 100%;
-      font-size: 20px;
-      padding-bottom: 5px;
-      color: #fff;
-      text-align: center; }
-.redes-sociales .contacto-contacto p {
-      width: 100%;
-      font-size: 18px;
-      padding-bottom: 5px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none; }
-.redes-sociales .contacto-contacto p a {
-        width: 100%;
-        font-size: 18px;
-        padding-bottom: 5px;
-        color: #fff;
-        text-align: center;
-        text-decoration: none; }
-.redes-sociales .contacto-contacto p a:hover {
-          text-decoration: underline; }
 
 footer {
   width: 100%;
-  padding: 20px;
-  background: #3c6a9f;
+  padding: 5px;
+  background: #f1c168;
   border-top: 2px solid #fff;
 }
 footer p {
@@ -131,8 +87,5 @@ footer p {
       background: #387bea;
     }
     
-    footer .redes-sociales {
-      background: #1e2b38;
-      padding: 60px 0;
-    }
+
     

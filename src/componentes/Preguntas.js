@@ -16,10 +16,10 @@ class Preguntas extends Component {
         const pregunta = this.preguntaRef.current.value;
         if(!pregunta === '' || !nombre === '') {
             
-            const pregunta = {
-                email: this.nombreRef.current.value,
-                pregunta: this.preguntaRef.current.value
-            }
+            // const pregunta = {
+            //     email: this.nombreRef.current.value,
+            //     pregunta: this.preguntaRef.current.value
+            // }
 
             this.setState({
                 error: false
@@ -35,7 +35,12 @@ class Preguntas extends Component {
     
     render() {
         return(
-            <div className="row justify-content-center">
+            
+
+
+
+
+            <div className="row justify-content-center my-5">
                 <div className="col-8 justify-content-center my-5">
 
                     <h3 className="col-12 titulo">Formular Pregunta:</h3>

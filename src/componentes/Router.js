@@ -25,7 +25,11 @@ class Router extends Component {
 
                 <div className="container">
                     <Switch>
-                        <Route exact path="/" Component={Inicio} />
+                        <Route exact path="/" render={() => (
+
+                            <Inicio />
+
+                        )} />
                         <Route exact path="/preguntas" render={() => (
 
                             <Preguntas />
