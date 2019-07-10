@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 
 const Header = (props) => {
     return (
-        <Link to={'/'}>
-            <div className="row">
-                <div className="col-12 Header justify-content-center my-4 d-flex m-0">
-                    <h1 className="text-white">Dulces Meriendas </h1>
+        
+        <div className="row justify-content-center">
+            <Link to={'/'}>
+                <div className="col-12 dulces justify-content-center d-flex ">
+                    <p className="text-white m-0">Dulces Meriendas</p>
                 </div>
-
-            </div>
-        </Link>
+            </Link>
+        </div>
     )
-
 }
 export default Header;

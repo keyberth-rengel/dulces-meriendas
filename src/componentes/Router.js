@@ -3,31 +3,40 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //componentes de la aplicacion
 import Header from './Header';
-import Nav from './Nav';
 import Navegacion from './Navegacion';
+import Inicio from './Inicio';
+import Preguntas from './Preguntas';
 import Footer from './Footer';
 
 class Router extends Component {
+
     render() {
         return (
-            <div className='container'>
-                <BrowserRouter>
+            <BrowserRouter>
                 
                 <div className="header">
+                    <div className="container">
                         <Navegacion />
                         <Header />
+                    </div>
                 </div>
 
                 
 
+                <div className="container">
+                    <Switch>
+                        <Route exact path="/" Component={Inicio} />
+                        <Route exact path="/preguntas" render={() => (
 
-                        <Switch>
-                            <Route exact path={'/'} Component/>
+                            <Preguntas />
 
-                        </Switch>
+                        )} />
+
+                    </Switch>
+                </div>
+
                 <Footer />
-                </BrowserRouter>
-            </div>
+            </BrowserRouter>
         )
     }
 }

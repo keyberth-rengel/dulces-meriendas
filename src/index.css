@@ -15,60 +15,61 @@ code {
   background: rgb(248, 174, 186);
 }
 .header{
-  background-image: url('./img/header-4.jpg');
+  background-image: url('/img/header-4.jpg');
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   min-height: 30rem;
+}
+.dulces{
+  margin-bottom: 150px;
+  padding: 30px;
+  width: 1000px;  
+}
+.dulces p {
+  font-size: 50px;
 }
 .redes-sociales {
   width: 100%;
-  padding: 50px;
   background: #3c6a9f;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; }
+}
 .redes-sociales .contenedor-redesSociales {
-    width: 33%;
-    text-align: center; }
+    text-align: center; 
+}
 .redes-sociales .contenedor-redesSociales p {
       width: 100%;
-      font-size: 23px;
-      padding-bottom: 10px;
+      font-size: 20px;
       color: #fff;
       text-align: center; }
 .redes-sociales .contenedor-redesSociales a {
       text-decoration: none; }
 .redes-sociales .contenedor-redesSociales a .fab {
-        font-size: 30px;
-        padding: 10px;
+        font-size: 25px;
+        padding: 5px;
         color: #fff;
         padding-bottom: 7px;
         border-bottom: 2px solid transparent; }
 .redes-sociales .contenedor-redesSociales a .fab:hover {
           border-bottom: 2px solid #fff; }
-.redes-sociales .contacto-contacto {
-    width: 33%; }
 .redes-sociales .contacto-contacto .titulo-otros {
       width: 100%;
-      font-size: 23px;
-      padding-bottom: 10px;
+      font-size: 20px;
+      padding-bottom: 5px;
       color: #fff;
       text-align: center; }
 .redes-sociales .contacto-contacto p {
       width: 100%;
       font-size: 18px;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
       color: #fff;
       text-align: center;
       text-decoration: none; }
 .redes-sociales .contacto-contacto p a {
         width: 100%;
         font-size: 18px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         color: #fff;
         text-align: center;
         text-decoration: none; }
@@ -77,13 +78,61 @@ code {
 
 footer {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   background: #3c6a9f;
   border-top: 2px solid #fff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end; }
+}
 footer p {
     color: #fff;
-    font-size: 18px; }
+    font-size: 18px; 
+}
+
+    
+.formulario input[type="text"],
+.formulario textarea {
+      border:1px solid #cecece;
+      border-radius: 5px;
+      padding: 10px 15px;
+      font-size: 18px;
+      color:#a4a4a4;
+}
+    
+.formulario input[type="text"]:focus,
+.formulario textarea:focus {
+      border:2px solid #3895ea;
+    }
+    
+.formulario input[type="text"] {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    
+.formulario textarea {
+      width: 100%;
+      height: 100px;
+      min-width: 100%;
+      max-width: 100%;
+      min-height:100px;
+      max-height: 300px;
+      margin-bottom: 15px;
+    }
+    
+.formulario .boton {
+      margin: auto;
+      background: #3895ea;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 15px 40px;
+      cursor: pointer;
+    }
+    
+.formulario .boton:hover {
+      background: #387bea;
+    }
+    
+    footer .redes-sociales {
+      background: #1e2b38;
+      padding: 60px 0;
+    }
+    
