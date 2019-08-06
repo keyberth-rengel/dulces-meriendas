@@ -35,7 +35,7 @@ code {
 footer {
   width: 100%;
   padding: 5px;
-  background: #f1c168;
+  background: #4b63b3;
   border-top: 2px solid #fff;
 }
 footer p {
@@ -86,6 +86,34 @@ footer p {
 .formulario .boton:hover {
       background: #387bea;
     }
-    
-
-    
+.titulo-recetas{
+  font-size: 25px;
+  background: #f2f2f2;
+}
+.div-receta {
+  cursor: pointer;
+}
+.div-receta:hover {
+  border: 2px solid #f2f2f2;
+  border-radius: 10px; 
+}
+.img-receta{
+  border-radius: 50%;
+  max-width: 100%;
+  min-width: 100%;
+}
+button{
+  cursor: pointer;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+.img-completa{
+  max-width: 100%;
+  min-width: 100%;
+}
