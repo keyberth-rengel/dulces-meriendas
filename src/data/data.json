@@ -153,7 +153,7 @@
             "Azúcar glass: 1 y 1/2 taza.", 
             "Vainilla: 1 cucharadita opcional, yo no le pongo al mío.", 
             "Mantequilla sin sal: 2 cucharadas grandes opcional"],
-        "preparacion-pastel": [
+        "preparacion": [
             "Encender el horno a 180 grados centígrados.", 
             "Mezcla la harina con el polvo de hornear o levadura, la sal, la canela y el bicarbonato.", 
             "En otro recipiente, batir los huevos hasta lograr una mezcla totalmente homogénea.", 
@@ -163,7 +163,8 @@
             "Una vez lograda una pasta común, sumar la zanahoria rallada, las nueces y la vainilla.", 
             "Luego de que la pasta quede bien mezclada, deposita todo en un molde siliconado. Si no tienes uno de estos, debes cubrir un molde tradicional con una ligera capa de mantequilla, y espolvorear de harina, antes de agregar la mezcla.", 
             "Acomoda en el horno precalentado, y deja por 40 minutos."],
-        "preparacion-crema": [
+        "adicional": "Preparacion Adicional",
+        "crema": [
             "Batir la mantequilla con el queso cremoso hasta lograr una textura untuosa (para que la mantequilla se incorpore muy rápido, puedes meterla 20 segundos al microondas antes de mezclarla con el queso).", 
             "Incorporar el azúcar glass a la crema y batir hasta que queden bien unidos todos los ingredientes. Este también es el momento de sumar la vainilla.", 
             "Un batidor eléctrico te hará la vida más fácil para trabajar la cobertura", 
@@ -197,7 +198,8 @@
             "Cuando la mezcla comience a verse uniforme de nuevo, vamos a agregar la vainilla.", 
             "Pasaremos esta mezcla a un molde para hornear. Si se trata de un molde convencional, hay que engrasarlo bien antes de añadir la mezcla del bizcocho, con la mantequilla marcada como opcional en la lista de ingredientes.", 
             "Meteremos la masa de pastel al horno, por 25 minutos"],
-        "preparacion-crema": [
+            "adicional": "Preparacion Adicional",
+        "crema": [
             "Mientras el bizcocho se hornea, podemos aprovechar para hacer la mezcla de las tres leches. Literalmente, mezclaremos en un recipiente, la leche evaporada, la leche condensada y la crema de leche o leche líquida.", 
             "Una vez obtenida una mezcla homogénea, la reservaremos.", 
             "También podemos aprovechar el tiempo de horneado para preparar el merengue o la crema con la que cubriremos este pastel tres leches. ¿Se acuerdan de las tres claras de huevo que no hemos utilizado para preparar el bizcocho? Este es el momento de usarlas. Simplemente, las batiremos a punto de nieve.", 
@@ -230,7 +232,8 @@
             "Agrega los huevos a la mezcla, uno a la vez. Sigue batiendo hasta que queden totalmente incorporados. Agrega la harina de trigo y luego la vainilla. Para este momento ya tendrás una masa un poco más espesa.", 
             "Vierte toda la masa en el molde que previamente tenías engrasado y enharinado y hornea hasta que, al momento de introducir un tenedor, éste salga limpio. También la costra debería estar dorada en este momento", 
             "Deja enfriar"],
-        "preparacion-crema": [
+            "adicional": "Preparacion Adicional",
+        "crema": [
             "Mezcla la crema para batir con la cucharadita del edulcorante hasta que obtengas una espuma suave. Resérvala.", 
             "Corta un pedazo de bizcocho, barnízalo con la mermelada de fresas con ayuda de una brocha, decóralo con la crema que hiciste previamente y ponle algunos trozos de fresas recién picadas (lavadas y desinfectadas previamente) en la superficie."],
         "img": "./img/pasteles/pastel-fresas/pastel-fresas.jpg",
