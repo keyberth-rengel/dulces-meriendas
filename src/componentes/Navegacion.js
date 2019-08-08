@@ -7,11 +7,11 @@ class Navegacion extends Component {
             <div className="row justify-content-center d-flex ">
 
                 <div className="col-12 justify-content-md-end justify-content-center">
-                    <nav className="col-12 nav justify-content-md-end justify-content-center d-flex ">
+                    <nav className="col-12 nav justify-content-md-end justify-content-center d-flex navegacion">
 
-                        <Link to={'/'} className="btn btn-link text-white btn-inline-block p-2"> Inicio </Link>
-                        <Link to={'/recetas'} className="btn btn-link text-white btn-inline-block p-2"> Recetas </Link>
-                        <Link to={'/preguntas'} className="btn btn-link text-white btn-inline-block p-2" >Preguntas </Link>
+                        <Link to={'/'} className="btn btn-link btn-inline-block p-2 enlace"> Inicio </Link>
+                        <Link to={'/recetas'} className="btn btn-link btn-inline-block p-2 enlace"> Recetas </Link>
+                        <Link to={'/preguntas'} className="btn btn-link btn-inline-block p-2 enlace" >Preguntas </Link>
                     </nav>
 
                 </div>

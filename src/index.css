@@ -15,7 +15,7 @@ code {
   background: rgb(248, 174, 186);
 }
 .header{
-  background-image: url('/img/header-4.jpg');
+  background-image: url('/img/header-1.jpg');
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,6 +30,10 @@ code {
 }
 .dulces p {
   font-size: 50px;
+  margin-top: 80px;
+  background: rgba(227, 228, 228, .4);
+  padding: 25px;
+  border-radius: 15px; 
 }
 
 footer {
@@ -119,4 +123,72 @@ a:hover{
 }
 .preparacion{
   background: #f2f2f2;
+}
+.navegacion {
+  background: rgba(227, 228, 228, .4);
+  border-radius: 5px;
+}
+.enlace{
+  font-size: 20px;
+  border: 2px solid transparent;
+  color: #000;
+}
+.enlace:hover{
+  font-size: 22px;
+  text-decoration: #387bea;
+  border: none;
+  color: #000;
+}
+.nav-receta{
+  height: 250px;
+}
+@media only screen and (max-width: 767px ){
+  .nav-receta{
+    height: 165px;
+  }
+}
+/* =========Spinner============== */
+
+.spinner{
+  margin: 100px auto 50px;
+  width: 70px;
+  text-align: center;
+}
+.spinner > div {
+  width: 15px;
+  height: 15px;
+  background: #5cb85c;
+  margin-right: 2px;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+-webkit-animation-delay: -0.32s;
+animation-delay: -0.16s;
+}
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  }
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0)
+  }
+  40% {
+    -webkit-transform: scale(1.0)
+  }
+
+}
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0)
+  }
+  40% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
 }

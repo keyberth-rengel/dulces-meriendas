@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Nav extends Component {
     render() {
         return (
-            <div className="col-12 col-md-4 mb-3 justify-content-center d-flex">
+            <div className="col-12 col-md-4 mb-3 justify-content-center d-flex nav-receta">
                 <nav className="col-12 col-md-10 col-lg-8 nav flex-wrap justify-content-center d-flex">
 
                     <button onClick={ () => { this.props.categoria('pasteles') } } className="col-5 col-md-12 btn btn-success text-white m-1 btn-block botones"> Pasteles </button>

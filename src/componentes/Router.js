@@ -16,7 +16,8 @@ class Router extends Component {
     state = {
         mostrar: [],
         recetas: [],
-        view: []
+        view: [],
+        spinner: false
     }
 
     componentWillMount() {
@@ -29,8 +30,15 @@ class Router extends Component {
     buscarRecetas = (categoria) => {
         const varios = {...this.state.recetas};
         this.setState({
-            mostrar: varios[categoria]
-        });
+            spinner: true
+        })
+        setTimeout(() => {
+            this.setState({
+                mostrar: varios[categoria],
+                spinner: false
+            });
+            
+        }, 2000);
     }
 
     mostrarReceta = (receta) => {
@@ -68,6 +76,7 @@ class Router extends Component {
                                 categoria= {this.buscarRecetas}
                                 recetas={this.state.mostrar}
                                 mostrarReceta={this.mostrarReceta}
+                                spinner={this.state.spinner}
                             />
 
                         )} />
