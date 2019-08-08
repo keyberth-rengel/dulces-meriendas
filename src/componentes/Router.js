@@ -16,41 +16,48 @@ class Router extends Component {
     state = {
         mostrar: [],
         recetas: [],
-        view: [],
         spinner: false
     }
 
     componentWillMount() {
         this.setState({
-            recetas: data,
-            mostrar: data.varios
+            recetas: data
         });
     }
-    
+    componentDidMount() {
+        const varios = [...this.state.recetas];
+        let mostrar =  varios.filter( index => (
+            index.categoria === "Recetas faciles"
+        ) )
+        this.setState({
+            mostrar
+        })
+    }
     buscarRecetas = (categoria) => {
-        const varios = {...this.state.recetas};
+        const varios = [...this.state.recetas];
+        let mostrar =  varios.filter( index => (
+            index.categoria === categoria
+        ) )
         this.setState({
             spinner: true
         })
         setTimeout(() => {
             this.setState({
-                mostrar: varios[categoria],
+                mostrar,
                 spinner: false
             });
             
-        }, 2000);
+        }, 1500);
     }
-
-    mostrarReceta = (receta) => {
-        this.setState({
-            view: receta
-        });
+    scroll = () => {
+        const arriba = document.getElementById('header');
+        arriba.scrollIntoView('auto', 'start');
     }
 
     render() {
         return (
             <BrowserRouter>
-                <div className="header">
+                <div className="header" id="header">
                     <div className="container">
                         <Navegacion />
                         <Header />
@@ -75,18 +82,25 @@ class Router extends Component {
                             <Recetario 
                                 categoria= {this.buscarRecetas}
                                 recetas={this.state.mostrar}
-                                mostrarReceta={this.mostrarReceta}
                                 spinner={this.state.spinner}
                             />
 
                         )} />
-                        <Route exact path="/recetas/:id" render={() => (
-
-                            <View
-                                view={this.state.view}
-                            />
-
-                        )} />
+                        <Route exact path="/recetas/:id" render={(props) => {
+                         
+                         const idReceta = props.location.pathname.replace('/recetas/', '');
+                        
+                         const varios = [...this.state.recetas];
+                            let mostrar =  varios.filter( index => (
+                                index.id === idReceta
+                            ) )
+                            return (
+                                <View
+                                    view={mostrar[0]}
+                                    scroll={this.scroll}
+                                />
+                            )
+                        } } />
                     </Switch>
                 </div>
 

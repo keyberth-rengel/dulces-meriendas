@@ -10,7 +10,7 @@ class Nav extends Component {
                     <button onClick={ () => { this.props.categoria('galletas') } } className="col-5 col-md-12 btn btn-success text-white m-1 btn-block"> Galletas</button>
                     <button onClick={ () => { this.props.categoria('cremas') } } className="col-5 col-md-12 btn btn-success text-white m-1 btn-block" > Cremas Dulces </button>
                     <button onClick={ () => { this.props.categoria('magdalenas') } } className="col-5 col-md-12 btn btn-success text-white m-1 btn-block" > Magdalenas  </button>
-                    <button onClick={ () => { this.props.categoria('varios') } } className="col-5 col-md-12 btn btn-success text-white m-1 btn-block"> Recetas Faciles </button>
+                    <button onClick={ () => { this.props.categoria("Recetas faciles") } } className="col-5 col-md-12 btn btn-success text-white m-1 btn-block"> Recetas Faciles </button>
                 </nav>
             </div>
         )

@@ -12,7 +12,6 @@ class Recetas extends Component {
                             <Receta 
                                 key={recetas[index].id}
                                 receta={recetas[index]}
-                                mostrarReceta={this.props.mostrarReceta}
                             />
                         ))
                     }

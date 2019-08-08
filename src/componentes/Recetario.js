@@ -19,7 +19,6 @@ class Recetario extends Component {
         }else {
             mostrar= <Recetas 
                         recetas={this.props.recetas}
-                        mostrarReceta={this.props.mostrarReceta}
                     />
         }
         return (

@@ -1,5 +1,5 @@
-{   
-    "galletas": [{
+[
+    {
         "titulo": "Galletas de Avena caseras",
         "categoria": "galletas",
         "descripcion": "Dulce merienda para disfrutar con la familia, facil y rapida de preparar con ingredientes sencillos que puedes reutilizar de tus preparaciones anteriores",
@@ -131,9 +131,8 @@
             "Cuando estén listas deja que reposen a temperatura ambiente."],
         "img": "./img/galletas/galletas-vainilla/galletas-vainilla.jpg",
         "id": "5"
-    }],
-
-    "pasteles": [{
+    },
+    {
         "titulo": "Pastel de Zanahoria",
         "categoria": "pasteles",
         "descripcion": "Dulce merienda para disfrutar con la familia, facil y rapida de preparar con ingredientes sencillos que puedes reutilizar de tus preparaciones anteriores",
@@ -238,8 +237,8 @@
             "Corta un pedazo de bizcocho, barnízalo con la mermelada de fresas con ayuda de una brocha, decóralo con la crema que hiciste previamente y ponle algunos trozos de fresas recién picadas (lavadas y desinfectadas previamente) en la superficie."],
         "img": "./img/pasteles/pastel-fresas/pastel-fresas.jpg",
         "id": "8"
-    }],
-    "cremas": [{
+    },
+    {
         "titulo": "Crema de Castañas Dulce",
         "categoria": "cremas",
         "descripcion": "Dulce merienda para disfrutar con la familia, facil y rapida de preparar con ingredientes sencillos que puedes reutilizar de tus preparaciones anteriores",
@@ -327,9 +326,8 @@
             "Después de este tiempo, la crema ya estará lista para utilizarse. Para conservarla, hay que asegurarse de refrigerarla. Como para todo lácteo, contarás con un plazo de varios días para poder utilizarla, siempre y cuando la mantengas guardada en refrigeración."],
         "img": "./img/cremas/crema-fraiche/crema-fraiche.jpg",
         "id": "12"
-    }],
-
-    "magdalenas": [{
+    },
+    {
         "titulo": " Magdalenas de Chocolate Caseras",
         "categoria": "magdalenas",
         "descripcion": "Dulce merienda para disfrutar con la familia, facil y rapida de preparar con ingredientes sencillos que puedes reutilizar de tus preparaciones anteriores",
@@ -389,9 +387,8 @@
             "Sacar de los mordes y listo."],
         "img": "./img/magdalenas/magdalenas-esponjosas/magdalenas-vainilla.jpg",
         "id": "14"
-    }],
-
-    "varios": [{
+    },
+    {
         "titulo": "Barras de Chocolate con Frutos Secos",
         "categoria": "Recetas faciles",
         "descripcion": "Dulce merienda para disfrutar con la familia, facil y rapida de preparar con ingredientes sencillos que puedes reutilizar de tus preparaciones anteriores",
@@ -480,5 +477,5 @@
             "Una vez listo simplemente pica tu brownie de chocolate en cuadrados y disfruta."],
         "img": "./img/varios/brownie-chocolate/brownie-chocolate.jpg",
         "id": "18"
-    }]
-}
+    }
+]

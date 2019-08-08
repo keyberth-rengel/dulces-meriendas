@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 class View extends Component {
+
+    scroll = () => {
+        this.props.scroll()
+    }
     render() {
         const { img, titulo, ingredientes, preparacion, categoria, crema = [], adicional = "" } = this.props.view;
         
@@ -39,6 +44,7 @@ class View extends Component {
                              ) )
                         }
                     </div>
+                    <Link to={'/recetas'} onClick={ this.scroll }  className="btn btn-info text-center">&larr; Volver al Recetario</Link>
                     
                </div>
                <div className="col-12 col-md-4 col-lg-4">
