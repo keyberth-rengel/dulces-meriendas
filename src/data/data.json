@@ -23,7 +23,7 @@
             "Ahora, sólo queda colocar papel vegetal en una bandeja, y con una cuchara y mucho arte hace,os las galletas. Una cucharada, 1 galleta. Si son primerizos en esto, las primeras siempre salen con formas particulares, poco a poco quedarán perfectas.", 
             "Al horno, por 20 o 30 minutos. Dependerá del horno, lo importante es que se vean doraditas y queden crujientes.",
             "Déjalas enfriar sobre una plato y ¡buen provecho!"],
-        "img": "./img/galletas/galletas-avena/galletas-de-avena.jpg",
+        "img": "img/galletas/galletas-avena/galletas-de-avena.jpg",
         "id": "1"
     },
     {
@@ -49,7 +49,7 @@
             "Mete en el horno hasta que los bordes de las galletas de mantequilla estén ligeramente dorados.", 
             "Retira la bandeja del horno, saca las galletas y, si tienes más masa, repite nuevamente el proceso hasta que las tengas todas listas.", 
             "Déjalas enfriar sobre una plato y ¡buen provecho!"],
-        "img": "./img/galletas/galletas-mantequilla/galletas-mantequilla.jpg",
+        "img": "img/galletas/galletas-mantequilla/galletas-mantequilla.jpg",
         "id": "2"
     },
     {
@@ -77,7 +77,7 @@
             "Haz varias de estas bolitas y ponlas en la bandeja procurando que quede espacio suficiente entre cada una para que no se pegue cuando crezca en el horno.", 
             "Ahora simplemente mete a hornear durante 15 minutos o hasta que las galletas estén listas (que se hayan dorado sin quemarse).","Recuerda que los hornos no siempre cocinan a la temperatura que dicen, debes estar atento por si tus galletas están listas antes de tiempo.", 
             "Cuando estén listas, saca las galletas de la bandeja y déjalas reposar a temperatura ambiente"],
-        "img": "./img/galletas/galletas-chispas-chocolate/galletas-chispas-chocolate.jpg",
+        "img": "img/galletas/galletas-chispas-chocolate/galletas-chispas-chocolate.jpg",
         "id": "3"
     },
     {
@@ -102,7 +102,7 @@
             "Recuerda que algunos hornos cocinan más rápido que otros así que este tiempo de 20 minutos podría ser menor en tu caso, debes estar atento con esto.", 
             "Una vez listas las galletas, sácalas de la bandeja, amasa más bolitas, aplástalas y sigue horneando hasta que estén hechas todas.",
             "Déjalas enfriar sobre una plato y ¡buen provecho!"],
-        "img": "./img/galletas/galletas-chocolate/galletas-chocolate.jpg",
+        "img": "img/galletas/galletas-chocolate/galletas-chocolate.jpg",
         "id": "4"
     },
     {
@@ -129,7 +129,7 @@
             "Procura que las galletas guarden una distancia entre ellas.", 
             "Hornea durante 15 minutos.", 
             "Cuando estén listas deja que reposen a temperatura ambiente."],
-        "img": "./img/galletas/galletas-vainilla/galletas-vainilla.jpg",
+        "img": "img/galletas/galletas-vainilla/galletas-vainilla.jpg",
         "id": "5"
     },
     {
@@ -171,7 +171,7 @@
             "Cuando esté bien horneado el pastel, sacar del horno y desmoldar con cuidado (espera que al menos se enfríe lo necesario para que no te quemes cuando saques la tarta de zanahoria del molde).", 
             "Para cubrir con el betún, vierte la crema sobre el centro del pastel y ve extendiendo hacia los lados con una paleta o cuchillo. Si quieres que el glaseado tome una textura un poco sólida, pasa el pastel al refrigerador, luego de que haya alcanzado una temperatura ambiente.", 
             "Puedes decorar tu tarta de zanahoria espolvoreando con trozos de nueces, canela o incluso zanahoria rallada, sobre el glaseado"],
-        "img": "./img/pasteles/pastel-zanahoria/pastel-zanahoria.jpg",
+        "img": "img/pasteles/pastel-zanahoria/pastel-zanahoria.jpg",
         "id": "6"
     },
     {
@@ -207,7 +207,7 @@
             "Luego, hay que sacar el bizcocho del horno. Lo ideal es dejarlo enfriar antes de desmoldarlo.", 
             "Vamos a tener que bañar el bizcocho con la mezcla de las tres leches. Es por esto que normalmente este pastel se conserva en moldes de vidrio con paredes, para poder contener el líquido. Antes de bañar el bizcocho, se perfora un poco con la punta de un tenedor, para ayudar a que absorba mejor la leche en los puntos más céntricos.", 
             "Finalmente, vamos a esparcir el merengue en una capa superior para el pastel."],
-        "img": "./img/pasteles/pastel-3leches/pastel-3leches.jpg",
+        "img": "img/pasteles/pastel-3leches/pastel-3leches.jpg",
         "id": "7"
     },
     {
@@ -235,7 +235,7 @@
         "crema": [
             "Mezcla la crema para batir con la cucharadita del edulcorante hasta que obtengas una espuma suave. Resérvala.", 
             "Corta un pedazo de bizcocho, barnízalo con la mermelada de fresas con ayuda de una brocha, decóralo con la crema que hiciste previamente y ponle algunos trozos de fresas recién picadas (lavadas y desinfectadas previamente) en la superficie."],
-        "img": "./img/pasteles/pastel-fresas/pastel-fresas.jpg",
+        "img": "img/pasteles/pastel-fresas/pastel-fresas.jpg",
         "id": "8"
     },
     {
@@ -258,7 +258,7 @@
             "Cocina durante cinco minutos y luego, reduce la intensidad del fuego e incorpora el puré de castañas. Asegúrate de aprovechar hasta los últimos restos, que no se queden en el robot.",
             "Continúa removiendo la crema con frecuencia, con la ayuda de una cuchara de madera. Deja que se cocine durante 15 minutos más, repitiendo la operación constantemente.",
             "La crema de castañas deberá espesarse y tomar una consistencia cremosa y densa. Pasado el tiempo de cocción indicado, ya estará lista para servirse, si te gusta caliente. Si no, puedes esperar a que se enfríe para guardarla en un recipiente tapado en el refrigerador, y consumirla en un máximo de pocos días."],
-        "img": "./img/cremas/crema-castana/crema-castanas.jpg",
+        "img": "img/cremas/crema-castana/crema-castanas.jpg",
         "id": "9"
     },
     {
@@ -280,7 +280,7 @@
             "Después de obtener el punto de espesor de la crema, podemos quitarla del fuego.",
             "Hay que dejarla reposar para que se enfríe.  Esto sin meterla directamente al refrigerador, puesto que los cambios bruscos de temperatura pueden dañar la composición de la leche.",
             "Otra precaución que hay que tomar es evitar la deshidratación de la crema. Para esto, hay que dejarla reposar tapada. La solución más fácil es cubrir el recipiente con papel film plástico de alimentos"],
-        "img": "./img/cremas/crema-pastelera/crema-pastelera.jpg",
+        "img": "img/cremas/crema-pastelera/crema-pastelera.jpg",
         "id": "10"
     },
     {
@@ -309,7 +309,7 @@
             "Una vez que hayamos sacado la crema de limón del calor, vamos a añadir la mantequilla y también la piel rallada del limón.",
             "Batiremos hasta que la mezcla se vuelva homogénea y después, dejaremos reposar la preparación hasta que se enfríe.",
             "Cúbrela con un film plástico o con una tapa, para que no se deshidrate."],
-        "img": "./img/cremas/crema-limon/crema-limon.jpg",
+        "img": "img/cremas/crema-limon/crema-limon.jpg",
         "id": "11"
     },
     {
@@ -324,7 +324,7 @@
             "Hay que revolver y revolver hasta que ambos productos estén totalmente integrados y sólo veamos una crema homogénea.","Posteriormente, colocaremos el recipiente con la mezcla en un lugar con una temperatura estable, cálida pero agradable, alrededor de 20 o 21 grados. El recipiente debe estar tapado y de preferencia, debe ser un recipiente de vidrio.",
             "Dejaremos que la crema se repose toda una noche o incluso hasta 20 horas.",
             "Después de este tiempo, la crema ya estará lista para utilizarse. Para conservarla, hay que asegurarse de refrigerarla. Como para todo lácteo, contarás con un plazo de varios días para poder utilizarla, siempre y cuando la mantengas guardada en refrigeración."],
-        "img": "./img/cremas/crema-fraiche/crema-fraiche.jpg",
+        "img": "img/cremas/crema-fraiche/crema-fraiche.jpg",
         "id": "12"
     },
     {
@@ -354,7 +354,7 @@
             "Separa la masa en diferentes moldes de papel rizado, hasta que llenes las tres cuartas partes de cada uno. Si aparte del molde de papel utilizas alguno de soporte rígido, tus magdalenas van a quedar mejor.", 
             "Ahora cada molde va al horno entre 15 y 20 minutos, hasta que las magdalenas tomen un tono dorado, se les forme su respectivo copete y al insertar un cuchillo, éste salga sin residuos.", 
             "Después de que estén listas, hay que dejarlas enfriar antes de removerlas de sus moldes. Una vez frías: banquete."],
-        "img": "./img/magdalenas/magdalenas-chocolate/magdalenas-chocolate.jpg",
+        "img": "img/magdalenas/magdalenas-chocolate/magdalenas-chocolate.jpg",
         "id": "13"
     },
     {
@@ -385,7 +385,7 @@
             "Una vez pasado este tiempo, las magdalenas deben tener un color dorado y se debe haber levantado el copete de cada una. De todas maneras, hay que probar que están bien cocidas, insertando un cuchillo que debe salir limpio.",
             "Sacar las magdalenas y dejar que baje la temperatura antes de sacar de los moldes, para que la masa termine de acomodarse con la forma correcta.",
             "Sacar de los mordes y listo."],
-        "img": "./img/magdalenas/magdalenas-esponjosas/magdalenas-vainilla.jpg",
+        "img": "img/magdalenas/magdalenas-esponjosas/magdalenas-vainilla.jpg",
         "id": "14"
     },
     {
@@ -403,7 +403,7 @@
             "Comenzarás derritiendo el chocolate oscuro en una olla a fuego lento, puedes colocar el agua y la Estevia y cuando comience a hervir, y entonces comenzar a colocar el chocolate en trozos (puedes hacerlo con tus manos). Buscamos una consistencia líquida pero espesa, con la que puedas batir con una cuchara sin tanta facilidad.",
             "Una vez hayas derretido el chocolate, debes colocar el papel antiadherente encima del plato o bandeja y esparcirlo con una capa semi-delgada, haciendo forma de un círculo y dejando solo un poco de chocolate para después. Una vez lo hayas esparcido, puedes rociar por encima los frutos secos y la pizca de sal marina a lo largo del círculo y de manera decorativa.",
             "Luego, para poder terminar de sellar o pegar la barra, esparce el chocolate final que te queda por encima de los frutos secos y la sal. Finalmente colócalo en el congelador por unos 10 minutos; aquí buscamos que el chocolate endurezca por completo."],
-        "img": "./img/varios/barras-chocolate/barras-chocolate.jpg",
+        "img": "img/varios/barras-chocolate/barras-chocolate.jpg",
         "id": "15"
     },
     {
@@ -425,7 +425,7 @@
             "Posteriormente se agrega la leche junto con la esencia de vainilla y se termina agregando la harina con la sal, el bicarbonato y el polvo para hornear mezclados. No trabajar demasiado o podríamos obtener un ponqué duro.",
             "Se precalienta el horno a 170ºC, se colocan los capacillos en el molde para cupcake y se rellenan a 3/4 de su capacidad. Se hornean por 20 - 25 min o hasta que al introducir un palillo este salga seco. Dejar enfriar en una rejilla.",
             "Puedes decorarlos con un poco de merengue francés y una hoja de yerbabuena"],
-        "img": "./img/varios/cupcakes/cupcake.jpg",
+        "img": "img/varios/cupcakes/cupcake.jpg",
         "id": "16"
     },
     {
@@ -453,7 +453,7 @@
             "En principio, la compota de manzana no es una preparación de consistencia totalmente uniforme, pero los amantes de las texturas homogéneas pueden pasar la preparación por una licuadora o robot. Si ese es el caso, hay que retirar la piel de naranja antes de procesar la mezcla, y la canela, si fue añadida en rama y no en polvo.",
             "Para los que seguimos el estilo tradicional, sin ayudarnos de la licuadora, igual hay que retirar la piel de naranja, y también la rama de canela, si fuera el caso.",
             "Eso es todo. Podemos escoger entre servir la compota todavía un poco tibia, o dejarla refrigerar antes de empezar a comer."],
-        "img": "./img/varios/compota-manzana/compota-manzana.jpg",
+        "img": "img/varios/compota-manzana/compota-manzana.jpg",
         "id": "17"
     },
     {
@@ -475,7 +475,7 @@
             "Incorpora bien (sin batir) la harina junto con la sal y el polvo de hornear",
             "Hornea la mezcla en una bandeja engrasada y enharinada o con papel mantequillado a 190 grados centígrados por aproximadamente 13 minutos.",
             "Una vez listo simplemente pica tu brownie de chocolate en cuadrados y disfruta."],
-        "img": "./img/varios/brownie-chocolate/brownie-chocolate.jpg",
+        "img": "img/varios/brownie-chocolate/brownie-chocolate.jpg",
         "id": "18"
     }
 ]
